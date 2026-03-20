@@ -8,11 +8,23 @@ app.MapGet("/", (HttpContext context) =>
 {
     var request = context.Request;
     Dictionary<string, StringValues> querDic = QueryHelpers.ParseQuery(queryString: request.QueryString.ToString());
-    foreach (var item in querDic)
+    
+    var firstNumber = querDic["firstNumber"].ToString();
+    var secondNumber = querDic["secondNumber"].ToString();
+    var operation = querDic["operation"].ToString();
+    
+    if (string.IsNullOrEmpty(firstNumber) || string.IsNullOrEmpty(secondNumber))
+        return "Error: firstNumber and secondNumber are required.";
+    
+    string result = operation switch
     {
-        Console.WriteLine($"Key: {item.Key}, Value: {item.Value}");
-    }
-    return "Hello Worldss!";
+        "add" => (double.Parse(firstNumber) + double.Parse(secondNumber)).ToString(),
+        "subtract" => (double.Parse(firstNumber) - double.Parse(secondNumber)).ToString(),
+        "multiply" => (double.Parse(firstNumber) * double.Parse(secondNumber)).ToString(),
+        "divide" => double.Parse(secondNumber) != 0 ? (double.Parse(firstNumber) / double.Parse(secondNumber)).ToString() : "Error: Division by zero.",
+        _ => "Error: Invalid operation. Use add, subtract, multiply, or divide."
+    };
+    return result;
 });
 
 app.Run();
