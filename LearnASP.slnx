@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Assginments/">
+    <Project Path="Math App - HTTP/Math App - HTTP.csproj" />
+  </Folder>
+  <Project Path="Getting Started/Getting Started.csproj" />
+  <Project Path="HTTP/HTTP.csproj" />
+</Solution>
