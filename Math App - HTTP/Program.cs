@@ -12,7 +12,7 @@ app.MapGet("/", (HttpContext context) =>
     var firstNumber = querDic["firstNumber"].ToString();
     var secondNumber = querDic["secondNumber"].ToString();
     var operation = querDic["operation"].ToString();
-    
+    var response = context.Response;
     if (string.IsNullOrEmpty(firstNumber) || string.IsNullOrEmpty(secondNumber))
         return "Error: firstNumber and secondNumber are required.";
     
@@ -24,6 +24,11 @@ app.MapGet("/", (HttpContext context) =>
         "divide" => double.Parse(secondNumber) != 0 ? (double.Parse(firstNumber) / double.Parse(secondNumber)).ToString() : "Error: Division by zero.",
         _ => "Error: Invalid operation. Use add, subtract, multiply, or divide."
     };
+    if (result.StartsWith("Error") || string.IsNullOrEmpty(result))
+    {
+        response.StatusCode = 400; // Bad Request
+    }
+
     return result;
 });
 
