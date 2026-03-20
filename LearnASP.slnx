@@ -3,6 +3,7 @@
     <Project Path="Math App - HTTP/Math App - HTTP.csproj" />
   </Folder>
   <Folder Name="/Middleware/">
+    <Project Path="Login Middleware/Login.csproj" />
     <Project Path="Middleware/Middleware.csproj" />
   </Folder>
   <Project Path="Getting Started/Getting Started.csproj" />
