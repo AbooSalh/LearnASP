@@ -2,6 +2,10 @@
   <Folder Name="/Assginments/">
     <Project Path="Math App - HTTP/Math App - HTTP.csproj" />
   </Folder>
+  <Folder Name="/Controllers/">
+    <Project Path="BankApp/BankApp.csproj" Id="c81ffc79-1418-4796-8ee3-c0eac58852eb" />
+    <Project Path="ControllersExample/ControllersExample.csproj" Id="91b29e99-4cbc-4f92-8544-04e27d4e2a2e" />
+  </Folder>
   <Folder Name="/Middleware/">
     <Project Path="Login Middleware/Login.csproj" />
     <Project Path="Middleware/Middleware.csproj" />
