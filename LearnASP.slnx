@@ -6,6 +6,11 @@
     <Project Path="Login Middleware/Login.csproj" />
     <Project Path="Middleware/Middleware.csproj" />
   </Folder>
+  <Folder Name="/Routing/">
+    <Project Path="CountriesApp/CountriesApp.csproj" Id="5ab16651-b125-49b2-99f5-a39b58560916" />
+    <Project Path="RoutingExample/RoutingExample.csproj" Id="288ab489-ea85-4b78-9c12-3fb98def2c73" />
+    <Project Path="StaticFiles/StaticFiles.csproj" Id="12814c52-2e7f-4973-b454-715e5f868c87" />
+  </Folder>
   <Project Path="Getting Started/Getting Started.csproj" />
   <Project Path="HTTP/HTTP.csproj" />
 </Solution>
