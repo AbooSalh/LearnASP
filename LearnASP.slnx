@@ -10,6 +10,11 @@
     <Project Path="Login Middleware/Login.csproj" />
     <Project Path="Middleware/Middleware.csproj" />
   </Folder>
+  <Folder Name="/ModelBinding/">
+    <Project Path="ECommerceOrders/ECommerceOrders.csproj" Id="9530479c-2b94-4b36-994a-00309d60fde6" />
+    <Project Path="ModelBindingExample/ModelBindingExample.csproj" Id="a003227e-61a6-4029-857b-3c5471de4df2" />
+    <Project Path="ModelValidation/ModelValidation.csproj" Id="30eac214-a98e-4c5a-be23-deaaaf910edc" />
+  </Folder>
   <Folder Name="/Routing/">
     <Project Path="CountriesApp/CountriesApp.csproj" Id="5ab16651-b125-49b2-99f5-a39b58560916" />
     <Project Path="RoutingExample/RoutingExample.csproj" Id="288ab489-ea85-4b78-9c12-3fb98def2c73" />
