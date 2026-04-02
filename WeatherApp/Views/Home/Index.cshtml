@@ -1,0 +1,39 @@
+﻿@model IEnumerable<WeatherApp.Models.CityWeather>
+
+@{
+    Layout = null;
+    string[] cardBackgrounds = ["blue-back", "green-back", "orange-back"];
+    int cardIndex = 0;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Weather</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container page-content">
+        <h1>Weather</h1>
+
+        <div class="flex margin-top-200">
+            @foreach (var item in Model)
+            {
+                var backgroundClass = cardBackgrounds[cardIndex % cardBackgrounds.Length];
+                cardIndex++;
+
+                <div class="w-30 @backgroundClass">
+                    <div class="w-50 inline-block">
+                        <h2>@item.CityName</h2>
+                        <h3 class="text-dark-grey">@item.DateAndTime?.ToString("hh:mm tt")</h3>
+                        <a href="/weather/@item.CityUniqueCode">Details</a>
+                    </div><div class="w-50 inline-block border-left padding-left">
+                        <h2>@item.TemperatureFahrenheit <span class="text-grey">°F</span></h2>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

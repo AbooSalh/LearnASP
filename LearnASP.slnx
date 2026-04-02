@@ -6,6 +6,11 @@
     <Project Path="BankApp/BankApp.csproj" Id="c81ffc79-1418-4796-8ee3-c0eac58852eb" />
     <Project Path="ControllersExample/ControllersExample.csproj" Id="91b29e99-4cbc-4f92-8544-04e27d4e2a2e" />
   </Folder>
+  <Folder Name="/DI/">
+    <Project Path="DependencyInjection/DependencyInjection.csproj" Id="770e4e9a-d7f8-4f81-bf79-6b5b7d2ead68" />
+    <Project Path="ServiceContracts/ServiceContracts.csproj" Id="5dfea4ec-9aa9-4d99-8f88-31d14f84fc9a" />
+    <Project Path="Services/Services.csproj" Id="7c239d2a-11c1-48e6-a28b-af15ec537a7e" />
+  </Folder>
   <Folder Name="/Middleware/">
     <Project Path="Login Middleware/Login.csproj" />
     <Project Path="Middleware/Middleware.csproj" />
@@ -14,6 +19,10 @@
     <Project Path="ECommerceOrders/ECommerceOrders.csproj" Id="9530479c-2b94-4b36-994a-00309d60fde6" />
     <Project Path="ModelBindingExample/ModelBindingExample.csproj" Id="a003227e-61a6-4029-857b-3c5471de4df2" />
     <Project Path="ModelValidation/ModelValidation.csproj" Id="30eac214-a98e-4c5a-be23-deaaaf910edc" />
+  </Folder>
+  <Folder Name="/Razor/">
+    <Project Path="ViewsExample/ViewsExample.csproj" Id="c16914e2-2761-4a83-bd41-65b4e600a7d1" />
+    <Project Path="WeatherApp/WeatherApp.csproj" Id="fa3722c1-8577-4eac-bbd6-73d15da96fcc" />
   </Folder>
   <Folder Name="/Routing/">
     <Project Path="CountriesApp/CountriesApp.csproj" Id="5ab16651-b125-49b2-99f5-a39b58560916" />

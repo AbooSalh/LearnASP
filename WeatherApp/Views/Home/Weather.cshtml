@@ -1,0 +1,33 @@
+﻿@model WeatherApp.Models.CityWeather
+
+@{
+    Layout = null;
+    string backgroundClass = "blue-back";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Weather</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container page-content">
+        <h1>Weather Details</h1>
+
+        <div class="flex margin-top-200">
+            <div class="w-50 @backgroundClass">
+                <div class="w-50 inline-block">
+                    <h2>@Model.CityName</h2>
+                    <h3 class="text-dark-grey">@Model.DateAndTime?.ToString("hh:mm tt")</h3>
+                    <a href="/">Back to Weather</a>
+                </div><div class="w-50 inline-block border-left padding-left">
+                    <h2>@Model.TemperatureFahrenheit <span class="text-grey">°F</span></h2>
+                    <h3 class="text-dark-grey">@Model.CityUniqueCode</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
