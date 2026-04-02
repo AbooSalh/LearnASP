@@ -11,6 +11,9 @@
     <Project Path="ServiceContracts/ServiceContracts.csproj" Id="5dfea4ec-9aa9-4d99-8f88-31d14f84fc9a" />
     <Project Path="Services/Services.csproj" Id="7c239d2a-11c1-48e6-a28b-af15ec537a7e" />
   </Folder>
+  <Folder Name="/Enviroments/">
+    <Project Path="EnviromentExample/EnviromentExample.csproj" Id="1ddc4e15-260a-401e-9414-662b49fdd495" />
+  </Folder>
   <Folder Name="/Middleware/">
     <Project Path="Login Middleware/Login.csproj" />
     <Project Path="Middleware/Middleware.csproj" />
