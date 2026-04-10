@@ -1,37 +1,40 @@
 <Solution>
   <Folder Name="/Assginments/">
-    <Project Path="Math App - HTTP/Math App - HTTP.csproj" />
+    <Project Path="D:/IT/Learn/LearnASP/Math App - HTTP/Math App - HTTP.csproj" />
+  </Folder>
+  <Folder Name="/Config/">
+    <Project Path="D:/IT/Learn/LearnASP/ConfigExample/ConfigExample.csproj" Id="1c1a755a-c3ee-4795-bf9d-613138c80070" />
   </Folder>
   <Folder Name="/Controllers/">
-    <Project Path="BankApp/BankApp.csproj" Id="c81ffc79-1418-4796-8ee3-c0eac58852eb" />
-    <Project Path="ControllersExample/ControllersExample.csproj" Id="91b29e99-4cbc-4f92-8544-04e27d4e2a2e" />
+    <Project Path="D:/IT/Learn/LearnASP/BankApp/BankApp.csproj" Id="c81ffc79-1418-4796-8ee3-c0eac58852eb" />
+    <Project Path="D:/IT/Learn/LearnASP/ControllersExample/ControllersExample.csproj" Id="91b29e99-4cbc-4f92-8544-04e27d4e2a2e" />
   </Folder>
   <Folder Name="/DI/">
-    <Project Path="DependencyInjection/DependencyInjection.csproj" Id="770e4e9a-d7f8-4f81-bf79-6b5b7d2ead68" />
-    <Project Path="ServiceContracts/ServiceContracts.csproj" Id="5dfea4ec-9aa9-4d99-8f88-31d14f84fc9a" />
-    <Project Path="Services/Services.csproj" Id="7c239d2a-11c1-48e6-a28b-af15ec537a7e" />
+    <Project Path="D:/IT/Learn/LearnASP/DependencyInjection/DependencyInjection.csproj" Id="770e4e9a-d7f8-4f81-bf79-6b5b7d2ead68" />
+    <Project Path="D:/IT/Learn/LearnASP/ServiceContracts/ServiceContracts.csproj" Id="5dfea4ec-9aa9-4d99-8f88-31d14f84fc9a" />
+    <Project Path="D:/IT/Learn/LearnASP/Services/Services.csproj" Id="7c239d2a-11c1-48e6-a28b-af15ec537a7e" />
   </Folder>
   <Folder Name="/Enviroments/">
-    <Project Path="EnviromentExample/EnviromentExample.csproj" Id="1ddc4e15-260a-401e-9414-662b49fdd495" />
+    <Project Path="D:/IT/Learn/LearnASP/EnviromentExample/EnviromentExample.csproj" Id="1ddc4e15-260a-401e-9414-662b49fdd495" />
   </Folder>
   <Folder Name="/Middleware/">
-    <Project Path="Login Middleware/Login.csproj" />
-    <Project Path="Middleware/Middleware.csproj" />
+    <Project Path="D:/IT/Learn/LearnASP/Login Middleware/Login.csproj" />
+    <Project Path="D:/IT/Learn/LearnASP/Middleware/Middleware.csproj" />
   </Folder>
   <Folder Name="/ModelBinding/">
-    <Project Path="ECommerceOrders/ECommerceOrders.csproj" Id="9530479c-2b94-4b36-994a-00309d60fde6" />
-    <Project Path="ModelBindingExample/ModelBindingExample.csproj" Id="a003227e-61a6-4029-857b-3c5471de4df2" />
-    <Project Path="ModelValidation/ModelValidation.csproj" Id="30eac214-a98e-4c5a-be23-deaaaf910edc" />
+    <Project Path="D:/IT/Learn/LearnASP/ECommerceOrders/ECommerceOrders.csproj" Id="9530479c-2b94-4b36-994a-00309d60fde6" />
+    <Project Path="D:/IT/Learn/LearnASP/ModelBindingExample/ModelBindingExample.csproj" Id="a003227e-61a6-4029-857b-3c5471de4df2" />
+    <Project Path="D:/IT/Learn/LearnASP/ModelValidation/ModelValidation.csproj" Id="30eac214-a98e-4c5a-be23-deaaaf910edc" />
   </Folder>
   <Folder Name="/Razor/">
-    <Project Path="ViewsExample/ViewsExample.csproj" Id="c16914e2-2761-4a83-bd41-65b4e600a7d1" />
-    <Project Path="WeatherApp/WeatherApp.csproj" Id="fa3722c1-8577-4eac-bbd6-73d15da96fcc" />
+    <Project Path="D:/IT/Learn/LearnASP/ViewsExample/ViewsExample.csproj" Id="c16914e2-2761-4a83-bd41-65b4e600a7d1" />
+    <Project Path="D:/IT/Learn/LearnASP/WeatherApp/WeatherApp.csproj" Id="fa3722c1-8577-4eac-bbd6-73d15da96fcc" />
   </Folder>
   <Folder Name="/Routing/">
-    <Project Path="CountriesApp/CountriesApp.csproj" Id="5ab16651-b125-49b2-99f5-a39b58560916" />
-    <Project Path="RoutingExample/RoutingExample.csproj" Id="288ab489-ea85-4b78-9c12-3fb98def2c73" />
-    <Project Path="StaticFiles/StaticFiles.csproj" Id="12814c52-2e7f-4973-b454-715e5f868c87" />
+    <Project Path="D:/IT/Learn/LearnASP/CountriesApp/CountriesApp.csproj" Id="5ab16651-b125-49b2-99f5-a39b58560916" />
+    <Project Path="D:/IT/Learn/LearnASP/RoutingExample/RoutingExample.csproj" Id="288ab489-ea85-4b78-9c12-3fb98def2c73" />
+    <Project Path="D:/IT/Learn/LearnASP/StaticFiles/StaticFiles.csproj" Id="12814c52-2e7f-4973-b454-715e5f868c87" />
   </Folder>
-  <Project Path="Getting Started/Getting Started.csproj" />
-  <Project Path="HTTP/HTTP.csproj" />
+  <Project Path="D:/IT/Learn/LearnASP/Getting Started/Getting Started.csproj" />
+  <Project Path="D:/IT/Learn/LearnASP/HTTP/HTTP.csproj" />
 </Solution>
